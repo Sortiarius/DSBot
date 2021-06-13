@@ -38,7 +38,9 @@ const unit = (message: Discord.Message, args: any) => {
 
   const name = unit.name.replace(/ *\([^)]*\) */g, "");
 
-  let unitInfo = `**Tier:** ${unit.tier} \n **Cost:** ${unit.cost} Minerals \n **HP:** ${unit.life}`;
+  let unitInfo = `
+    ${unit.tier ? `**Tier:** ${unit.tier}` : ""} \n 
+    ${unit.cost ? `**Cost:** ${unit.cost} Minerals` : ""} \n **HP:** ${unit.life}`;
   if (unit.shields && unit.shields != 0) {
     unitInfo += `\n**Shields:** ${unit.shields.toString()}`;
   }
