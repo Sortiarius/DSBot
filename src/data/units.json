@@ -4805,7 +4805,10 @@
         "period": 1.43,
         "targets": ["Ground"],
         "level": {
-          "base": 1
+          "base": 1,
+        "versus": {
+            "Light": 2
+          }
         }
       }
     ],
