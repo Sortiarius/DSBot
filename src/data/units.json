@@ -4799,7 +4799,7 @@
         "damage": {
           "base": 12,
           "versus": {
-            "light": 24
+            "Light": 24
           }
         },
         "period": 1.43,
