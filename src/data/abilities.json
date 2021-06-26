@@ -263,7 +263,7 @@
     "units": ["Corruptor"],
     "commanders": ["Zagara"],
     "requirements": [],
-    "cooldown": 10,
+    "cooldown": 8,
     "description": "Covers the target unit in Zerg slime, increasing the damage taken by 35% for 21 seconds."
   },
     {
@@ -296,7 +296,7 @@
     "commanders": ["Stukov"],
     "requirements": [],
     "cooldown": 30,
-    "description": "Brings an air unit to the ground, and prevents it from moving."
+    "description": "Brings an air unit to the ground, and prevents it from moving for 8 seconds[3 vs Heroic]."
   },
   {
     "name": "Cloak (Stukov)",
@@ -545,7 +545,7 @@
     "commanders": ["Karax"],
     "requirements": ["Tier 2"],
     "cooldown": 360,
-    "description": "Fires a beam that deals 750 damage (1500 vs Armored) over 10.7 seconds."
+    "description": "Fires a beam that deals 750 damage (1500 vs Armored) over 8 seconds."
   },
   {
     "name": "Build Interceptor",
@@ -889,7 +889,7 @@
     "commanders": ["Tychus"],
     "requirements": [],
     "cooldown": 29,
-    "description": "Temporarily take control of target unit and increases its damage by 50%. Dominated units self-destruct after 5 seconds."
+    "description": "Temporarily take control of target unit and increases its damage by 50%. Lasts 5 seconds. Deals 600 damage once the effect ends."
   },
     {
     "name": "Psi Projector",
@@ -936,7 +936,7 @@
     "units": ["Slayer"],
     "commanders": ["Alarak"],
     "requirements": [],
-    "cooldown": 6,
+    "cooldown": 7,
     "description": "Teleports a short distance, and next attack deals double damage."
   },
   {
@@ -989,7 +989,7 @@
     "commanders": ["Alarak"],
     "requirements": [],
     "cooldown": 60,
-    "description": "Destroys a Supplicant in your staging area permanently gaining 1 stack of Sacrifice. Sacrifice grants 100 shields and 25% ability damage. Refunds 25 minerals on sacrifice."
+    "description": "Destroys a Supplicant in your staging area permanently gaining 1 stack of Sacrifice. Sacrifice grants 100 shields and 25% ability damage. Refunds 30 minerals on sacrifice."
   },
   {
     "name": "Destruction Beam",
@@ -1019,6 +1019,14 @@
     "commanders": ["Alarak"],
     "requirements": [],
     "description": "Nearby allies gain +2 weapon range."
+  },
+    {
+    "name": "Salvage",
+    "units": ["Builder - Han and Horner"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "cooldown": 20,
+    "description": "Han & Horner always sellf units for a full refund, but selling is limited by charges."
   },
   {
     "name": "My Significant Other (Han)",
@@ -1487,7 +1495,7 @@
     "units": ["Battlecruiser"],
     "commanders": ["Raynor"],
     "requirements": [],
-    "description": "Morphs to Hyperion. Superheavy Battlecruiser.\nCost: 1640 Minerals"
+    "description": "Morphs to Hyperion. Superheavy Battlecruiser.\nCost: 1440 Minerals"
   },
   {
     "name": "Penetrating Blast",
@@ -1681,7 +1689,7 @@
     "units": ["Mecha Ravager"],
     "commanders": ["Stetmann"],
     "requirements": [],
-    "cooldown": 6,
+    "cooldown": 7,
     "description": "Launch a missile in a target location, dealing 60 damage to enemy units in target area on impact."
   },
   {
@@ -2096,7 +2104,7 @@
     "units": ["Dominion Trooper"],
     "commanders": ["Mengsk"],
     "requirements": [],
-    "description": "Improves life, and replaces weapon with a short ranged area damage flamethrower.\nCost: 60 Minerals."
+    "description": "Improves life, and replaces weapon with a short ranged area damage flamethrower.\nCost: 55 Minerals."
   },
   {
     "name": "Equip Hailstorm Launcher",
@@ -2104,6 +2112,21 @@
     "commanders": ["Mengsk"],
     "requirements": [],
     "description": "Adds an upgraded Anti-Air weapon.\nCost: 60 Minerals."
+  },
+    {
+    "name": "Pilot Warhound",
+    "units": ["Dominion Trooper"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "description": "Anti Mechanical Unit. \nCost: 120 Minerals."
+  },
+  {
+    "name": "Haywire Missiles",
+    "units": ["Warhound"],
+    "commanders": ["Mengsk"],
+    "requirements": [],
+    "cooldown": 4,
+    "description": "When attacking a mechanical unit warhound launches electrically charges missiles at its target, dealing 30 damage per volley."
   },
   {
     "name": "Heal (Imperial Intercessor)",
@@ -2402,17 +2425,10 @@
     "cooldown": 5,
     "description": "Every mineral Mengsk earns is awarded as XP, split between each of his Royal Guards. While no Royal Guards are in training, excess XP is stored as energy. This ability can be used on a Royal Guard, granting it any stored XP."
   },
-  {
-    "name": "Biomass (2)",
-    "units": ["Swarm Queen"],
-    "commanders": ["Abathur"],
-    "requirements": [],
-    "cooldown": 60,
-    "description": "Grants the unit +300% Life, +50% Lifesteal, +100% Attack Speed, and +4 Energy/Second. Costs 2 charges to use."
-  },
+
   {
     "name": "Biomass (3)",
-    "units": ["Vile Roach", "Mutalisk"],
+    "units": ["Vile Roach", "Mutalisk", "Swarm Queen"],
     "commanders": ["Abathur"],
     "requirements": [],
     "cooldown": 60,
@@ -2478,7 +2494,7 @@
     "commanders": ["Abathur"],
     "requirements": [],
     "cooldown": 90,
-    "description": "Restores 100 life to all friendly units, and a further 50 over 7 seconds. "
+    "description": "Restores 100 life to all friendly units, and a further 50 over 7 seconds. Can store up to 3 charges."
   },
   {
     "name": "Toxic Nest",
@@ -2528,7 +2544,7 @@
     "units": ["Legionnaire"],
     "commanders": ["Fenix"],
     "requirements": [],
-    "description": "Upgrades a Legionnaire to Kaldalis.\nCost: 275 Minerals."
+    "description": "Upgrades a Legionnaire to Kaldalis.\nCost: 250 Minerals."
   },
   {
     "name": "Engage",
@@ -2754,7 +2770,7 @@
     "units": ["Scout"],
     "commanders": ["Fenix"],
     "requirements": [],
-    "description": "Upgrade a Scout to Mojo.\nCost: 290 Minerals."
+    "description": "Upgrade a Scout to Mojo.\nCost: 265 Minerals."
   },
   {
     "name": "Warbringer",
@@ -2768,7 +2784,7 @@
     "units": ["Immortal"],
     "commanders": ["Fenix"],
     "requirements": [],
-    "description": "Upgrade an Immortal to Taldarin.\nCost: 375 Minerals."
+    "description": "Upgrade an Immortal to Taldarin.\nCost: 325 Minerals."
   },
   {
     "name": "Interdictors",
@@ -2856,7 +2872,7 @@
     "units": ["Builder - Raynor"],
     "commanders": ["Raynor"],
     "requirements": [],
-    "cooldown": 120,
-    "description": "Grants 200 minerals. Mineral income is then reduced till full amount is paid."
+    "cooldown": 90,
+    "description": "Reduces the cost of all units by 5, until they are placed. Hyperion is reduced by 50 instead."
   }
 ]
