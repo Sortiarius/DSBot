@@ -3731,8 +3731,7 @@
         "range": 6,
         "count": 2,
         "damage": {
-          "base": 12,
-          "versus": {}
+          "base": 12
         },
         "period": 0.89,
         "targets": ["Ground"],
