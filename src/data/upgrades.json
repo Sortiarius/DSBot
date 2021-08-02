@@ -385,6 +385,13 @@
     "requirements": ["Tier 2"],
     "description": "Infested Bunkers gain +3 armor."
   },
+    {
+    "name": "Crash Landing",
+    "commanders": ["Stukov"],
+    "cost": 350,
+    "requirements": [],
+    "description": "Aleksander falls to the ground upon death, dealing 300 damage to nearby enemies, and allowing it to spawn infested for 5 seconds."
+  },
   {
     "name": "Shadow Charge",
     "commanders": ["Vorazun"],
@@ -843,7 +850,7 @@
   {
     "name": "KD9a Implosion Core",
     "commanders": ["Tychus"],
-    "cost": 200,
+    "cost": 175,
     "requirements": [],
     "description": "Allows Tychus' Shredder Grenade to pull affected units to the center of its area of effect, stunning them for 1.4 seconds."
   },
@@ -885,14 +892,14 @@
   {
     "name": "Procyon Shade Suit",
     "commanders": ["Tychus"],
-    "cost": 250,
+    "cost": 225,
     "requirements": [],
     "description": "Prevents Crooked Sam from taking any damage and increases his movement speed by 80% for 4 seconds after being attacked. Cannot occur more than once every 11 seconds."
   },
   {
     "name": "Enhanced Hostilities Kit",
     "commanders": ["Tychus"],
-    "cost": 200,
+    "cost": 150,
     "requirements": ["Tier 3"],
     "description": "Reduces the charge-up time of Demolition Charge by 2.1 seconds each time Crooked Sam attacks."
   },
@@ -941,7 +948,7 @@
   {
     "name": "Wildflame Fuel Additives",
     "commanders": ["Tychus"],
-    "cost": 200,
+    "cost": 125,
     "requirements": [],
     "description": "When units Enflamed by Oil Spill die, they explode, spreading Enflamed to enemy units in the area."
   },
@@ -978,7 +985,7 @@
     "commanders": ["Tychus"],
     "cost": 150,
     "requirements": ["Tier 3"],
-    "description": "Provides a 30% chance that Cannonball will deal 4 times more damage with his attacks."
+    "description": "Increases weapon damage by 100%."
   },
   {
     "name": "Umojan Signal Modulator",
@@ -990,7 +997,7 @@
   {
     "name": "Moebius Aggression Blend",
     "commanders": ["Tychus"],
-    "cost": 150,
+    "cost": 125,
     "requirements": [],
     "description": "Units in range of a Revitalizer gain 15% additional attack speed."
   },
@@ -1004,7 +1011,7 @@
   {
     "name": "Hammer Munitions",
     "commanders": ["Tychus"],
-    "cost": 450,
+    "cost": 425,
     "requirements": ["Tier 3"],
     "description": "Rattlesnake's attacks slow and deal 50% of their damage in an area of effect."
   },
@@ -1046,7 +1053,7 @@
   {
     "name": "Neural Disruption Device",
     "commanders": ["Tychus"],
-    "cost": 200,
+    "cost": 175,
     "requirements": [],
     "description": "Enemy units in an area around a dominated unit will attack each other for 2 seconds."
   },
@@ -1067,7 +1074,7 @@
   {
     "name": "Umojan Repair Nanites",
     "commanders": ["Tychus"],
-    "cost": 300,
+    "cost": 250,
     "requirements": [],
     "description": "Increases the immediate heal and periodic heal of Lt. Nikara's Restorative Burst by 100%."
   },
