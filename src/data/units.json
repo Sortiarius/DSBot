@@ -63,7 +63,7 @@
     "name": "High Templar",
     "commanders": ["Artanis"],
     "tier": 2,
-    "cost": 225,
+    "cost": 200,
     "life": 40,
     "shields": 40,
     "energy_start": 50,
@@ -553,6 +553,52 @@
     ],
     "abilities": ["Burrow Charge (Apocalisk)", "Cluster Rockets"],
     "upgrades": []
+  },
+  {
+    "name": "Apocalisk",
+    "commanders": ["Stukov"],
+    "tier": 3,
+    "cost": 1500,
+    "life": 2000,
+    "speed": 2.8,
+    "armor": 3,
+    "types": [
+      "Armored",
+      "Biological",
+      "Mechanical",
+      "Massive",
+      "Heroic",
+      "Map Boss"
+    ],
+    "weapons": [
+      {
+        "name": "Infested Cannon",
+        "range": 8,
+        "damage": {
+          "base": 10
+        },
+        "period": 1.07,
+        "targets": ["Ground"],
+        "level": {
+          "base": 1
+        }
+      },
+       {
+        "name": "Infested Cannon",
+        "range": 5,
+         "count": 5,
+        "damage": {
+          "base": 10
+        },
+        "period": .71,
+        "targets": ["Air"],
+        "level": {
+          "base": 1
+        }
+      }
+    ],
+    "abilities": [],
+    "upgrades": ["Crash Landing"]
   },
   {
     "name": "Infested Siege Tank",
@@ -1523,7 +1569,7 @@
     "name": "Hunter Killer",
     "commanders": ["Zagara"],
     "tier": 3,
-    "cost": 140,
+    "cost": 145,
     "life": 150,
     "speed": 4.39,
     "armor": 1,
@@ -1577,7 +1623,7 @@
     "name": "Roach (Zagara)",
     "commanders": ["Zagara"],
     "tier": 2,
-    "cost": 70,
+    "cost": 65,
     "life": 145,
     "speed": 3.15,
     "armor": 1,
@@ -1635,7 +1681,7 @@
     "name": "Corruptor",
     "commanders": ["Zagara"],
     "tier": 2,
-    "cost": 225,
+    "cost": 220,
     "life": 200,
     "speed": 4.72,
     "armor": 2,
@@ -2401,7 +2447,7 @@
         "damage": {
           "base": 40,
           "versus": {
-            "Structure": 80
+            "Structure": 50
           }
         },
         "period": 0.57,
@@ -2409,7 +2455,7 @@
         "level": {
           "base": 4,
              "versus": {
-            "Structure": 8
+            "Structure": 5
           }
         }
       }
@@ -4426,7 +4472,7 @@
         "damage": {
           "base": 40,
           "versus": {
-            "Structure": 80
+            "Structure": 50
           }
         },
         "period": 0.14,
@@ -4434,7 +4480,7 @@
         "level": {
           "base": 4,
           "versus": {
-            "Structure": 8
+            "Structure": 5
           }
         }
       }
@@ -5882,7 +5928,7 @@
     "weapons": [
       {
         "name": "Glaive Cannon",
-        "range": 4,
+        "range": 5,
         "count": 0,
         "damage": {
           "base": 16,
@@ -5919,7 +5965,7 @@
     "weapons": [
       {
         "name": "Glaive Cannon",
-        "range": 4,
+        "range": 5,
         "count": 0,
         "damage": {
           "base": 25,
@@ -6114,7 +6160,7 @@
     "weapons": [
       {
         "name": "Anti-Matter Missiles",
-        "range": 3,
+        "range": 4,
         "count": 2,
         "damage": {
           "base": 11,
