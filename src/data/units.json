@@ -555,7 +555,7 @@
     "upgrades": []
   },
   {
-    "name": "Apocalisk",
+    "name": "Aleksander",
     "commanders": ["Stukov"],
     "tier": 3,
     "cost": 1500,
@@ -590,7 +590,7 @@
         "damage": {
           "base": 10
         },
-        "period": .71,
+        "period": 0.71,
         "targets": ["Air"],
         "level": {
           "base": 1
