@@ -948,8 +948,6 @@
         "range": 13,
         "damage": {
           "base": 100,
-          "versus": {
-          }
         },
         "period": 2.14,
         "targets": ["Air", "Ground"],
@@ -1388,8 +1386,6 @@
         "range": "Melee",
         "damage": {
           "base": 4,
-          "versus": {
-          }
         },
         "period": 0.46,
         "targets": ["Ground"],
@@ -2379,8 +2375,6 @@
         "range": 3,
         "damage": {
           "base": 10,
-          "versus": {
-          }
         },
         "period": 0.43,
         "targets": ["Ground"],
@@ -2705,8 +2699,6 @@
         "range": 7,
         "damage": {
           "base": 18,
-          "versus": {
-          }
         },
         "period": 0.55,
         "targets": ["Air", "Ground"],
@@ -3714,8 +3706,6 @@
         "range": "Melee",
         "damage": {
           "base": 70,
-          "versus": {
-          }
         },
         "period": 0.59,
         "targets": ["Ground"],
@@ -4095,7 +4085,7 @@
     "commanders": ["Nova"],
     "tier": 2,
     "cost": 350,
-    "life": 350,
+    "life": 250,
     "speed": 3.15,
     "armor": 0,
     "types": ["Biological", "Psionic"],
@@ -4272,8 +4262,6 @@
         "count": 0,
         "damage": {
           "base": 30,
-          "versus": {
-          }
         },
         "period": 1.43,
         "targets": ["Ground"],
@@ -4827,8 +4815,6 @@
         "range": "Melee",
         "damage": {
           "base": 4,
-          "versus": {
-          }
         },
         "period": 0.46,
         "targets": ["Ground"],
@@ -4864,7 +4850,10 @@
         "period": 1.43,
         "targets": ["Ground"],
         "level": {
-          "base": 1
+          "base": 1,
+        "versus": {
+            "Light": 2
+          }
         }
       }
     ],
@@ -4888,8 +4877,6 @@
         "range": 6,
         "damage": {
           "base": 16,
-          "versus": {
-          }
         },
         "period": 1.4,
         "targets": ["Ground"],
@@ -5049,8 +5036,6 @@
         "range": 3,
         "damage": {
           "base": 10,
-          "versus": {
-          }
         },
         "period": 0.43,
         "targets": ["Ground"],
