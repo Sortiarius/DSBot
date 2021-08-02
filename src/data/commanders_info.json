@@ -54,7 +54,7 @@
       },
       {
         "name": "Air Weapons",
-        "cost": "150/200/250"
+        "cost": "125/175/225"
       },
       {
         "name": "Air Armor",
@@ -341,7 +341,7 @@
     "upgrades": [
       {
         "name": "Primal Attacks",
-        "cost": "250/400/500"
+        "cost": "200/300/400"
       },
       {
         "name": "Ground Carapace",
