@@ -543,9 +543,17 @@
     "name": "Purifier Beam",
     "units": ["Builder - Karax"],
     "commanders": ["Karax"],
-    "requirements": ["Tier 2"],
-    "cooldown": 360,
-    "description": "Fires a beam that deals 750 damage (1500 vs Armored) over 8 seconds."
+    "requirements": [],
+    "cooldown": 240,
+    "description": "Fires a beam that deals 350 damage (750 vs Armored) over 5 seconds."
+  },
+   {
+    "name": "Orbital Strike Beacon",
+    "units": ["Builder - Karax"],
+    "commanders": ["Karax"],
+    "requirements": [],
+    "cooldown": 120,
+    "description": "Marks a unit with a beacon. Upon death, it will call down a Orbital Strike down on its killer, dealing 50 [100 vs Armored] damage in an area."
   },
   {
     "name": "Build Interceptor",
@@ -809,7 +817,7 @@
     "units": ["Tychus"],
     "commanders": ["Tychus"],
     "requirements": [],
-    "cooldown": 40,
+    "cooldown": 60,
     "description": "Deals 75 damage to enemy units in the target area."
   },
     {
@@ -1027,6 +1035,14 @@
     "requirements": [],
     "cooldown": 20,
     "description": "Han & Horner always sellf units for a full refund, but selling is limited by charges."
+  },
+     {
+    "name": "Mag Mine",
+    "units": ["Builder - Han and Horner"],
+    "commanders": ["Han and Horner"],
+    "requirements": [],
+    "cooldown": 240,
+    "description": "Deploys a mine that deals 50 damage upon impact."
   },
   {
     "name": "My Significant Other (Han)",
