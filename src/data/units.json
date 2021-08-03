@@ -947,7 +947,7 @@
         "name": "Khaydarin Beam",
         "range": 13,
         "damage": {
-          "base": 100,
+          "base": 100
         },
         "period": 2.14,
         "targets": ["Air", "Ground"],
@@ -1385,7 +1385,7 @@
         "name": "Needle Claws",
         "range": "Melee",
         "damage": {
-          "base": 4,
+          "base": 4
         },
         "period": 0.46,
         "targets": ["Ground"],
@@ -2374,7 +2374,7 @@
         "name": "Spines",
         "range": 3,
         "damage": {
-          "base": 10,
+          "base": 10
         },
         "period": 0.43,
         "targets": ["Ground"],
@@ -2698,7 +2698,7 @@
         "name": "Lil' Tom",
         "range": 7,
         "damage": {
-          "base": 18,
+          "base": 18
         },
         "period": 0.55,
         "targets": ["Air", "Ground"],
@@ -3705,7 +3705,7 @@
         "name": "Spider Mines",
         "range": "Melee",
         "damage": {
-          "base": 70,
+          "base": 70
         },
         "period": 0.59,
         "targets": ["Ground"],
@@ -4261,7 +4261,7 @@
         "range": 6,
         "count": 0,
         "damage": {
-          "base": 30,
+          "base": 30
         },
         "period": 1.43,
         "targets": ["Ground"],
@@ -4814,7 +4814,7 @@
         "name": "Mecha Needle Claws",
         "range": "Melee",
         "damage": {
-          "base": 4,
+          "base": 4
         },
         "period": 0.46,
         "targets": ["Ground"],
@@ -4876,7 +4876,7 @@
         "name": "Mecha Plasma Discharge",
         "range": 6,
         "damage": {
-          "base": 16,
+          "base": 16
         },
         "period": 1.4,
         "targets": ["Ground"],
@@ -5035,7 +5035,7 @@
         "name": "Acid Spit",
         "range": 3,
         "damage": {
-          "base": 10,
+          "base": 10
         },
         "period": 0.43,
         "targets": ["Ground"],
@@ -5329,7 +5329,7 @@
       "Equip B-2 High-Cal LMG",
       "Equip CPO-7 Salamander Flamethrower",
       "Equip Hailstorm Launcher",
-      "Pilot Warhound
+      "Pilot Warhound"
     ],
     "upgrades": []
   },
