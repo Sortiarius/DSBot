@@ -4,7 +4,7 @@ const UniqueEmbed = new Discord.MessageEmbed()
   .setColor("2d2d2d")
   .addField(
     "**Unique Units**",
-    "Certain units have a hidden behavior (buff) called \`Important Hero\`. Certain abilities (Dehaka's Devour, Energizer's Reclamation, and Feedback) are unable to target units with this behavior.\n\n **Unique Units**\n```Alarak\nApocalisk\nAleksander\nFenix Heroes\nGary and Super Gary\nKerrigan\nTychus Outlaws\nZagara```"
+    "Certain units have a hidden behavior (buff) called \`Important Hero\`. Certain abilities (Dehaka's Devour, Energizer's Reclamation, and Feedback) are unable to target units with this behavior.\n\n **Unique Units**\n```Alarak\nApocalisk\nAleksander\nFenix Heroes\nGary and Super Gary\nHyperion\nKerrigan\nTychus Outlaws\nZagara```"
   );
 
 const unique = (message: Discord.Message, args: any) => {
