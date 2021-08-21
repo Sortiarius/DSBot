@@ -535,7 +535,7 @@
       "Mechanical",
       "Massive",
       "Heroic",
-      "Map Boss"
+      "Unique"
     ],
     "weapons": [
       {
@@ -568,7 +568,7 @@
       "Mechanical",
       "Massive",
       "Heroic",
-      "Map Boss"
+      "Unique"
     ],
     "weapons": [
       {
@@ -1411,7 +1411,7 @@
     "energy_max": 100,
     "speed": 3.15,
     "armor": 2,
-    "types": ["Biological", "Heroic", "Map Boss"],
+    "types": ["Biological", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "Energy Blast",
@@ -2057,7 +2057,7 @@
     "life": 655,
     "speed": 4.2,
     "armor": 1,
-    "types": ["Biological", "Heroic", "Map Boss"],
+    "types": ["Biological", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "Claws",
@@ -2600,7 +2600,7 @@
     "life": 600,
     "speed": 4.13,
     "armor": 1,
-    "types": ["Light", "Biological", "Heroic", "Map Boss"],
+    "types": ["Light", "Biological", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "Sweet Talker",
@@ -2631,7 +2631,7 @@
     "life": 375,
     "speed": 4.13,
     "armor": 0,
-    "types": ["Light", "Biological", "Heroic", "Map Boss"],
+    "types": ["Light", "Biological", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "The Negotiators",
@@ -2663,7 +2663,7 @@
     "life": 650,
     "speed": 4.13,
     "armor": 1,
-    "types": ["Armored", "Mechanical", "Heroic", "Map Boss"],
+    "types": ["Armored", "Mechanical", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "Big Tom",
@@ -2725,7 +2725,7 @@
     "life": 1000,
     "speed": 4.13,
     "armor": 1,
-    "types": ["Armored", "Biological", "Heroic", "Map Boss"],
+    "types": ["Armored", "Biological", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "Brimstone Mk. 1 Flamethrower",
@@ -2762,7 +2762,7 @@
     "life": 1000,
     "speed": 4.13,
     "armor": 1,
-    "types": ["Light", "Biological", "Heroic", "Map Boss"],
+    "types": ["Light", "Biological", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "Meteor Smasher",
@@ -2793,7 +2793,7 @@
     "life": 625,
     "speed": 4.13,
     "armor": 1,
-    "types": ["Armored", "Biological", "Heroic", "Map Boss"],
+    "types": ["Armored", "Biological", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "K13 \"Rattler\" Grenade Launcher",
@@ -2830,7 +2830,7 @@
     "life": 500,
     "speed": 4.13,
     "armor": 0,
-    "types": ["Light", "Biological", "Psionic", "Heroic", "Map Boss"],
+    "types": ["Light", "Biological", "Psionic", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "AGR-17 Gauss Rifle",
@@ -2861,7 +2861,7 @@
     "life": 500,
     "speed": 4.13,
     "armor": 0,
-    "types": ["Light", "Biological", "Psionic", "Heroic", "Map Boss"],
+    "types": ["Light", "Biological", "Psionic", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "C-10b Canister Rifle",
@@ -2898,7 +2898,7 @@
     "life": 450,
     "speed": 4.13,
     "armor": 1,
-    "types": ["Light", "Biological", "Heroic", "Map Boss"],
+    "types": ["Light", "Biological", "Heroic", "Unique"],
     "weapons": [],
     "abilities": ["Super Heal", "Reinvigorate Burst", "XM-77 Matrix Generator"],
     "upgrades": [
@@ -3932,7 +3932,7 @@
     "life": 2000,
     "speed": 2.63,
     "armor": 3,
-    "types": ["Massive", "Heroic", "Armored", "Mechanical", "Map Boss"],
+    "types": ["Massive", "Heroic", "Armored", "Mechanical", "Unique"],
     "weapons": [
       {
         "name": "ATS Laser Battery",
@@ -4547,7 +4547,7 @@
     "life": 500,
     "speed": 3.15,
     "armor": 1,
-    "types": ["Armored", "Mechanical", "Heroic", "Map Boss"],
+    "types": ["Armored", "Mechanical", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "Gary’s Little Helper",
@@ -4583,7 +4583,7 @@
     "life": 1000,
     "speed": 4.13,
     "armor": 3,
-    "types": ["Mechanical", "Heroic", "Armored", "Map Boss", "Detector"],
+    "types": ["Mechanical", "Heroic", "Armored", "Unique", "Detector"],
     "weapons": [
       {
         "name": "Gary’s Bigger Helper",
@@ -5905,7 +5905,7 @@
     "speed": 4.2,
     "armor": 2,
     "shield_armor": 1,
-    "types": ["Mechanical", "Heroic", "Map Boss", "Light"],
+    "types": ["Mechanical", "Heroic", "Unique", "Light"],
     "weapons": [
       {
         "name": "Psi Blades",
@@ -5972,7 +5972,7 @@
     "speed": 3.85,
     "armor": 2,
     "shield_armor": 1,
-    "types": ["Mechanical", "Light", "Heroic", "Map Boss"],
+    "types": ["Mechanical", "Light", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "Glaive Cannon",
@@ -6075,7 +6075,7 @@
     "speed": 3.5,
     "armor": 2,
     "shield_armor": 1,
-    "types": ["Mechanical", "Armored", "Heroic", "Map Boss"],
+    "types": ["Mechanical", "Armored", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "Phase Disruptors",
@@ -6167,7 +6167,7 @@
     "speed": 4.29,
     "armor": 1,
     "shield_armor": 1,
-    "types": ["Mechanical", "Heroic", "Armored", "Map Boss"],
+    "types": ["Mechanical", "Heroic", "Armored", "Unique"],
     "weapons": [
       {
         "name": "Anti-Matter Missiles",
@@ -6284,7 +6284,7 @@
     "speed": 3.5,
     "armor": 2,
     "shield_armor": 1,
-    "types": ["Mechanical", "Massive", "Armored", "Heroic", "Map Boss"],
+    "types": ["Mechanical", "Massive", "Armored", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "Chrono Lance",
@@ -6345,7 +6345,7 @@
     "speed": 0,
     "armor": 3,
     "shield_armor": 1,
-    "types": ["Mechanical", "Armored", "Heroic", "Map Boss"],
+    "types": ["Mechanical", "Armored", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "Interceptors",
@@ -6407,7 +6407,7 @@
     "speed": 4.2,
     "armor": 4,
     "shield_armor": 4,
-    "types": ["Mechanical", "Heroic", "Map Boss"],
+    "types": ["Mechanical", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "Purifier Blades",
@@ -6438,7 +6438,7 @@
     "speed": 3.85,
     "armor": 3,
     "shield_armor": 3,
-    "types": ["Mechanical", "Armored", "Heroic", "Map Boss"],
+    "types": ["Mechanical", "Armored", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "Phase Disruptor",
@@ -6469,7 +6469,7 @@
     "speed": 3.15,
     "armor": 3,
     "shield_armor": 3,
-    "types": ["Armored", "Mechanical", "Heroic", "Map Boss"],
+    "types": ["Armored", "Mechanical", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "Warspace Cannon",
