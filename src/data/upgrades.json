@@ -677,7 +677,7 @@
     "commanders": ["Swann"],
     "cost": 100,
     "requirements": [],
-    "description": "Increases the damage of Gemini Missiles by 100% and Burst Lasers by 300% while the Wraith is moving."
+    "description": "Increases the damage of Gemini Missiles by 100% and Bursts by 300% while the Wraith is moving."
   },
   {
     "name": "Advanced Optics",
@@ -726,7 +726,7 @@
     "commanders": ["Swann"],
     "cost": 100,
     "requirements": ["Tier 3"],
-    "description": "Drakken Laser Drill gains +10 damage."
+    "description": "Drakken Laser Drill gains +20 damage."
   },
   {
     "name": "Dissolving Acid",
