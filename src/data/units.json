@@ -1808,7 +1808,8 @@
     "abilities": [],
     "upgrades": [
       "Ares-Class Targeting System (Swann)",
-      "Multi-Lock Weapons System"
+      "Multi-Lock Weapons System", 
+      "Advanced Optics"
     ]
   },
   {
@@ -1835,7 +1836,7 @@
       }
     ],
     "abilities": ["Lock On"],
-    "upgrades": ["Targeting Optics", "Mag-Field Accelerator"]
+    "upgrades": ["Targeting Optics", "Mag-Field Accelerator", "Advanced Optics"]
   },
   {
     "name": "Wraith",
@@ -1864,7 +1865,7 @@
         "level": {
           "base": 1,
           "versus": {
-            "Armored": 16
+            "Armored": 1
           }
         }
       },
@@ -1882,7 +1883,7 @@
       }
     ],
     "abilities": ["Cloak (Wraith)"],
-    "upgrades": ["Pulse Amplifier", "Displacement Field"]
+    "upgrades": ["Pulse Amplifier", "Displacement Field", "Advanced Optics"]
   },
   {
     "name": "Science Vessel",
@@ -1925,7 +1926,7 @@
       }
     ],
     "abilities": [],
-    "upgrades": []
+    "upgrades": ["Advanced Optics"]
   },
   {
     "name": "Thor",
@@ -1971,7 +1972,7 @@
       }
     ],
     "abilities": ["330mm Barrage Cannon", "Retract Anti-Air Weaponry"],
-    "upgrades": ["330mm Barrage Cannon"]
+    "upgrades": ["330mm Barrage Cannon", "Advanced Optics"]
   },
   {
     "name": "Siege Tank (Swann)",
@@ -2021,7 +2022,7 @@
       }
     ],
     "abilities": ["Siege Mode (Siege Tank)"],
-    "upgrades": ["Maelstrom Rounds"]
+    "upgrades": ["Maelstrom Rounds", "Advanced Optics"]
   },
   {
     "name": "Drakken Laser Drill",
@@ -2054,7 +2055,7 @@
     "commanders": ["Dehaka"],
     "tier": 1,
     "cost": 400,
-    "life": 655,
+    "life": 600,
     "speed": 4.2,
     "armor": 1,
     "types": ["Biological", "Heroic", "Unique"],
@@ -2063,7 +2064,7 @@
         "name": "Claws",
         "range": 1,
         "damage": {
-          "base": 30
+          "base": 20
         },
         "period": 1.43,
         "targets": ["Ground"],
@@ -2918,7 +2919,7 @@
     "speed": 3.5,
     "armor": 2,
     "shield_armor": 2,
-    "types": ["Biological", "Heroic"],
+    "types": ["Biological", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "Bane Blades",
@@ -3979,7 +3980,7 @@
     "energy_max": 100,
     "speed": 3.15,
     "armor": 2,
-    "types": ["Biological", "Heroic"],
+    "types": ["Biological", "Heroic", "Unique"],
     "weapons": [
       {
         "name": "C-20A Canister Rifle",
