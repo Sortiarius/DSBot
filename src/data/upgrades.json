@@ -79,7 +79,7 @@
   {
     "name": "Scarab Housing",
     "commanders": ["Artanis"],
-    "cost": 200,
+    "cost": 100,
     "requirements": [],
     "description": "Reavers can hold twice as many scarabs."
   },
@@ -155,13 +155,6 @@
     "description": "Kerrigan has reduced cost for her abilities."
   },
   {
-    "name": "Rapid Regeneration",
-    "commanders": ["Kerrigan"],
-    "requirements": [],
-    "cost": 25,
-    "description": "Brood Mutalisks regenerate life quickly while out of combat."
-  },
-  {
     "name": "Muscular Augments",
     "commanders": ["Kerrigan"],
     "cost": 100,
@@ -221,7 +214,7 @@
     "name": "Tissue Assimilation",
     "commanders": ["Kerrigan"],
     "cost": 100,
-    "requirements": ["Burrow Charge"],
+    "requirements": [],
     "description": "Torrasques restore 10 life per attack, plus 2 for each additional target cleaved."
   },
   {
@@ -417,7 +410,7 @@
     "name": "Phase Reactor",
     "commanders": ["Vorazun"],
     "cost": 100,
-    "requirements": ["Blink"],
+    "requirements": [],
     "description": "Stalker Blink provides Cloak, and restores 80 shields over 4 seconds."
   },
   {
@@ -526,13 +519,6 @@
     "description": "Sentinels revive upon death. 90 second cooldown."
   },
   {
-    "name": "Rapid Recharging",
-    "commanders": ["Karax"],
-    "cost": 100,
-    "requirements": [],
-    "description": "Energizers and Shield Batteries gain +50% energy regeneration rate."
-  },
-  {
     "name": "Advanced Repair Systems",
     "commanders": ["Karax"],
     "cost": 125,
@@ -544,14 +530,7 @@
     "commanders": ["Karax"],
     "cost": 25,
     "requirements": [],
-    "description": "Defensive Structures gain +25% weapon speed."
-  },
-    {
-    "name": "Enhanced Targeting",
-    "commanders": ["Karax"],
-    "cost": 50,
-    "requirements": ["Optimized Ordnance"],
-    "description": "Defensive Structures gain +2 range."
+    "description": "Defensive Structures gain +25% weapon speed. Defensive Structures gain +2 ability range and Shield Batteries gain the ability to grant a target struture a barrier that absorbs up to 100 damage for 7 seconds. "
   },
   {
     "name": "Reclamation",
@@ -582,13 +561,6 @@
     "description": "Immortals gain a powerful, single-target damage ability."
   },
   {
-    "name": "Fortification Barrier",
-    "commanders": ["Karax"],
-    "cost": 25,
-    "requirements": [],
-    "description": "Shield Batteries gain the ability to grant a target struture a barrier that absorbs up to 100 damage for 7 seconds."
-  },
-  {
     "name": "Extended Thermal Lance",
     "commanders": ["Karax"],
     "cost": 100,
@@ -613,7 +585,7 @@
     "name": "Graviton Catapult",
     "commanders": ["Karax"],
     "cost": 150,
-    "requirements": ["Repair Drones"],
+    "requirements": [],
     "description": "Makes the Support Carrier launch interceptors more quickly. Also increases interceptor attack speed by 25%."
   },
   {
@@ -621,7 +593,7 @@
     "commanders": ["Swann"],
     "cost": 100,
     "requirements": [],
-    "description": "Improves the Hellion's Infernal Flamethrower to deal +5 damage vs. light units and the Hellbat's Napalm Spray to deal +12 damage vs. light units."
+    "description": "Improves the Hellion's Infernal Flamethrower to deal +5 damage vs. light units and the Hellbat's Napalm Spray to deal +10 damage vs. light units."
   },
   {
     "name": "Infernal Plating",
@@ -649,7 +621,7 @@
     "commanders": ["Swann"],
     "cost": 50,
     "requirements": [],
-    "description": "Vehicles and Ships regain 2.8 life per second."
+    "description": "Vehicles and Ships regain 3 life per second."
   },
   {
     "name": "Maelstrom Rounds",
@@ -1134,6 +1106,13 @@
     "requirements": [],
     "description": "Supplicants gain +25 shields."
   },
+   {
+    "name": "Energy Shaping",
+    "commanders": ["Alarak"],
+    "cost": 100,
+    "requirements": ["tier 2"],
+    "description": "Supplicants may attack air units."
+  },
   {
     "name": "Phasing Armor (Slayer)",
     "commanders": ["Alarak"],
@@ -1378,7 +1357,7 @@
     "commanders": ["Raynor"],
     "cost": 50,
     "requirements": [],
-    "description": "Vultures slowly replenish spider mines"
+    "description": "Vultures replenish a spider mine every 20 seconds"
   },
   {
     "name": "Cerberus Mines",
@@ -1642,7 +1621,7 @@
   {
     "name": "UMI-C Charging Protocol",
     "commanders": ["Stetmann"],
-    "cost": 150,
+    "cost": 100,
     "requirements": [],
     "description": "Mecha Infestors gain the ability to restore 150 life, 100 Egonergy, and 100 energy to a friendly unit. Restores an additional 600 life, 200 Egonergy, and 200 energy over 14 seconds. The unit’s ability cooldown rate is increased by 25%."
   },
@@ -1745,13 +1724,6 @@
     "description": "Swarm Host Locusts may attack air units."
   },
   {
-    "name": "Rapid Regeneration",
-    "commanders": ["Abathur"],
-    "requirements": [],
-    "cost": 25,
-    "description": "Mutalisks regenerate 5 health per second when not in combat."
-  },
-  {
     "name": "Vicious Glave",
     "commanders": ["Abathur"],
     "requirements": [],
@@ -1761,7 +1733,7 @@
   {
     "name": "Sundering Glave",
     "commanders": ["Abathur"],
-    "requirements": ["Vicious Glave"],
+    "requirements": [],
     "cost": 125,
     "description": "Mutalisk attacks deal +100% damage to armored enemies."
   },
@@ -1810,7 +1782,7 @@
   {
     "name": "Aim-assist Embrasures",
     "commanders": ["Mengsk"],
-    "cost": 75,
+    "cost": 50,
     "requirements": [],
     "description": "Further increases the range of units within Supply Bunkers by +1."
   },
