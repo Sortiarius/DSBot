@@ -6458,6 +6458,35 @@
     "abilities": ["Solar Cannon", "Solarite Flare", "Arsenal Overcharge"],
     "upgrades": ["Purifier Armaments"]
   },
+   {
+    "name": "Probius",
+    "commanders": ["Fenix"],
+    "tier": 3,
+    "cost": 0,
+    "life": 20,
+    "shields": 20,
+    "speed": 3.94,
+    "armor": 0,
+    "shield_armor": 0,
+    "types": ["Mechanical", "Light"],
+    "weapons": [
+      {
+        "name": "Particle beam",
+        "range": 0,
+        "count": 0,
+        "damage": {
+          "base": 5
+        },
+        "period": 1.07,
+        "targets": ["Ground"],
+        "level": {
+          "base": 0
+        }
+      }
+    ],
+    "abilities": ["Bravery"],
+    "upgrades": []
+  },
   {
     "name": "Fenix - Arbiter",
     "commanders": ["Fenix"],
