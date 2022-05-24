@@ -11,7 +11,7 @@
     "name": "Whirlwind",
     "units": ["Honor Guard"],
     "commanders": ["Artanis"],
-    "requirements": ["Whirlwind"],
+    "requirements": [],
     "cooldown": 14,
     "description": "Deals 30 damage over 3 seconds to nearby enemies."
   },
@@ -172,7 +172,7 @@
     "commanders": ["Kerrigan"],
     "requirements": [],
     "cooldown": 120,
-    "description": "Drops in an invulnerable Creep Tumor. Zerg move faster on creep while in combat. The creep grants +10% weapon speed to Kerrigan's forces."
+    "description": "Drops in an invulnerable Creep Tumor. Zerg move faster on creep while in combat. The creep grants +20% weapon speed to Kerrigan's forces."
   },
   {
     "name": "Assimilate",
@@ -180,7 +180,7 @@
     "commanders": ["Kerrigan"],
     "requirements": [],
     "cooldown": 120,
-    "description": "Marks an enemy unit. After it dies, Kerrigan will convert it into 100 minerals."
+    "description": "Marks an enemy unit. After it dies, Kerrigan will convert it into 50 minerals."
   },
   {
     "name": "Rebirth",
@@ -544,7 +544,7 @@
     "units": ["Builder - Karax"],
     "commanders": ["Karax"],
     "requirements": [],
-    "cooldown": 240,
+    "cooldown": 300,
     "description": "Fires a beam that deals 350 damage (750 vs Armored) over 5 seconds."
   },
    {
@@ -552,7 +552,7 @@
     "units": ["Builder - Karax"],
     "commanders": ["Karax"],
     "requirements": [],
-    "cooldown": 120,
+    "cooldown": 240,
     "description": "Marks a unit with a beacon. Upon death, it will call down a Orbital Strike down on its killer, dealing 50 [100 vs Armored] damage in an area."
   },
   {
@@ -897,7 +897,7 @@
     "commanders": ["Tychus"],
     "requirements": [],
     "cooldown": 29,
-    "description": "Temporarily take control of target unit and increases its damage by 50%. Lasts 5 seconds. Deals 600 damage once the effect ends."
+    "description": "Temporarily take control of target unit and increases its damage by 50%. Lasts 4 seconds. Deals 600 damage once the effect ends."
   },
     {
     "name": "Psi Projector",
@@ -1041,7 +1041,7 @@
     "units": ["Builder - Han and Horner"],
     "commanders": ["Han and Horner"],
     "requirements": [],
-    "cooldown": 240,
+    "cooldown": 360,
     "description": "Deploys a mine that deals 50 damage upon impact."
   },
   {
@@ -1110,7 +1110,7 @@
     "units": ["Assault Galleon"],
     "commanders": ["Han and Horner"],
     "requirements": [],
-    "duration": 10,
+    "duration": 9,
     "description": "Trains a Reaper. Raider."
   },
   {
@@ -1769,7 +1769,7 @@
     "units": ["Gary"],
     "commanders": ["Stetmann"],
     "requirements": [],
-    "cooldown": 29,
+    "cooldown": 40,
     "description": "Unleashes a travelling electrical orb that deals 70 damage per second to all enemies along its path."
   },
   {
@@ -1777,7 +1777,7 @@
     "units": ["Super Gary"],
     "commanders": ["Stetmann"],
     "requirements": [],
-    "cooldown": 21,
+    "cooldown": 40,
     "description": "Unleashes a travelling electrical orb that deals 70 damage per second to all enemies along its path. Can hold up to two charges."
   },
   {
@@ -1792,7 +1792,7 @@
     "units": ["Super Gary"],
     "commanders": ["Stetmann"],
     "requirements": [],
-    "description": "When Super Gary absorbs a Mecha Remnant, he gains +10% attack speed and +1 life per second for 21 seconds."
+    "description": "When Super Gary absorbs a Mecha Remnant, he gains +10% attack speed and +.75 life per second for 21 seconds."
   },
   {
     "name": "Recycle Mecha Zergling",
@@ -2002,7 +2002,7 @@
     "commanders": ["Abathur"],
     "units": ["Ravager"],
     "requirements": [],
-    "cooldown": 7,
+    "cooldown": 9,
     "description": "Launch a missile at the target location, dealing 60 damage to all units in the area upon impact."
   },
   {
@@ -2211,7 +2211,7 @@
     "commanders": ["Mengsk"],
     "requirements": ["Rank 1"],
     "cooldown": 21,
-    "description": "Grants an undetectable cloak for 7 seconds."
+    "description": "Grants an undetectable cloak for 6 seconds."
   },
   {
     "name": "Terrazine Infusion",
@@ -2243,7 +2243,7 @@
     "units": ["Emperor's Shadow"],
     "commanders": ["Mengsk"],
     "requirements": [],
-    "cooldown": 6,
+    "cooldown": 8,
     "cost": {
       "energy": 75
     },
@@ -2452,20 +2452,11 @@
   },
   {
     "name": "Biomass (5)",
-    "units": ["Ravager", "Swarm Host", "Guardian"],
+    "units": ["Ravager", "Swarm Host", "Guardian", "Viper"],
     "commanders": ["Abathur"],
     "requirements": [],
     "cooldown": 60,
     "description": "Grants the unit +300% Life, +50% Lifesteal, +100% Attack Speed, and +4 Energy/Second. Ravagers gain halved ability cooldowns. Locusts gain the Biomass bonus if their Swarm Host has the buff. Costs 5 charges to use."
-  },
-    {
-    "name": "Biomass (6)",
-    "units": ["Viper"],
-    "commanders": ["Abathur"],
-    "requirements": [],
-    "cooldown": 60,
-    "description": "Grants the unit +300% Life, +50% Lifesteal, +100% Attack Speed, and +4 Energy/Second. Costs 6 charges to use."
-  },
     {
     "name": "Biomass (8)",
     "units": ["Devourer"],
@@ -2821,7 +2812,7 @@
     "units": ["Alarak"],
     "commanders": ["Alarak"],
     "requirements": [],
-    "cooldown": 12,
+    "cooldown": 11,
     "description": "Rushes to an enemy, dealing 200 damage."
   },
   {
