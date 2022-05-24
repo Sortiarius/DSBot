@@ -2808,6 +2808,13 @@
     "description": "The damage of Ciolarion's Solar Beam Increases the longer it stays on a single target."
   },
   {
+    "name": "Bravery",
+    "units": ["Probius"],
+    "commanders": ["Fenix"],
+    "requirements": [],
+    "description": "As the bravest of the probes, he gains +1 weapon damage per each unit built."
+  },
+  {
     "name": "Deadly Charge",
     "units": ["Alarak"],
     "commanders": ["Alarak"],
